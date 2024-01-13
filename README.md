@@ -7,8 +7,8 @@ where $\Theta(x)$ is the Heaviside step function, $\mathcal{K}_p$ is the modifie
 
 The final report is in ```english-version.pdf```. 
 
-![Project Screenshot](images/drawing_ziggurat.svg)
-![Project Screenshot](images/zikkurat.jpeg)
+![Project Screenshot](images/drawing_ziggurat.svg "Implementation of Zikkurat method")
+![Project Screenshot](images/zikkurat.jpeg "Zikkurat building")
 
 ## Table of Contents
 - [GAUSS](#gauss)
