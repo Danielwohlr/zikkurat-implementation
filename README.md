@@ -1,6 +1,6 @@
 # Custom RNG implementation using Zikkurat method in MATLAB 
 
-The ziggurat algorithm is an algorithm for pseudo-random number sampling. Belonging to the class of rejection sampling algorithms, it relies on an underlying source of uniformly-distributed random numbers, typically from a pseudo-random number generator, as well as precomputed tables. The algorithm is used to generate values from a monotonically decreasing probability distribution. In this project, we extended this idea to an arbitrary probability distribution, with a demonstration on an example of Generalized Inversed Gaussian distributin (GIG)
+This report presents the implementation of the Ziggurat method for generating pseudorandom numbers using MATLAB. It extends the method to both Normal (Gaussian) and Generalized Inverse Gaussian (GIG) distributions, exploring algorithmic adaptations for these specific cases. The GIG distribution is of the form
 $$f(x) = \frac{(\frac{a}{b})^{p/2}}{2 \mathcal{K}_p(\sqrt{ab})} \Theta(x) x^{p-1} \mathrm{exp}\left(-\frac{ax +\frac{b}{x}}{2}\right),$$
 
 where $\Theta(x)$ is the Heaviside step function, $\mathcal{K}_p$ is the modified Bessel function of the second kind, and the parameters are $a,b>0, p \in \mathbb{R}$.
